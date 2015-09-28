@@ -1,3 +1,9 @@
+# Overview
+These are the accompanying materials for the NiFi workshop - Developing a Custom Processor.
+
+![flow overview]
+(https://github.com/aperepel/nifi-workshop/blob/master/screenshot.png)
+
 ## Install Ambari NiFi Service
 https://github.com/abajwa-hw/ambari-nifi-service
 
