@@ -93,3 +93,5 @@ https://github.com/aperepel/nifi-workshop/tree/master
 - Send jokes to a Kafka topic. Different Kafka topics? (Flow design)
 - Improve user experience by restricting allowable values for properties (e.g. true/false, pre-defined buffer sizes) (Coding)
 - Accumulate jokes to be written in one file, e.g. as a batch of 20 or every 30 seconds (MergeContent Processor)
+- Give Chuck a voice! Find a Text-to-Speech (TTS) library or service and wrap it either in the REST invocation or custom processor.
+*Tip: you can download output sound files via a `Data Provenance` event viewer (sorry, servers don't play sounds ;)*
