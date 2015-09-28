@@ -49,8 +49,8 @@ mvn clean install
 The NAR package will be placed in the `nifi-workshop-demo-nar/target` directory.
 
 ## Upload the NAR via Ambari
-Ambari -> Local Files
-Upload to the `/opt/nifi-*/lib`
+* `Ambari -> Local Files`
+* Upload to the `/opt/nifi-*/lib`
 
 *If you can't go down into the `lib` directory*: right click on `lib -> Permissions -> RWX for 'others'`
 
@@ -76,11 +76,11 @@ https://github.com/apache/nifi/tree/master/nifi-nar-bundles
 * Final result
 https://github.com/aperepel/nifi-workshop/tree/master
 
-* NiFi template (can be imported)
-** The template is in the `Chuck_Norris_Speaking.xml`
-** In NiFi UI go to `Templates` admin section (on the righthand side) and upload the XML
-** In NiFi UI main toolbar click `Templates`
-** In a resulting popup your new template should be listed. Select and Ok. 
+### NiFi template (can be imported)
+* The template is in the `Chuck_Norris_Speaking.xml`
+* In NiFi UI go to `Templates` admin section (on the righthand side) and upload the XML
+* In NiFi UI main toolbar click `Templates`
+* In a resulting popup your new template should be listed. Select and Ok. 
 
 # Extra Credit
 
